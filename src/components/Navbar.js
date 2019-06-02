@@ -16,6 +16,11 @@ export default class Navbar extends Component {
             </Link>
           </li>
         </ul>
+        <Link to="/cart" className="ml-auto">
+          <button>
+            <i className="fas fa-cart-plus" />my cart
+          </button>
+        </Link>
       </nav>
     );
   }
